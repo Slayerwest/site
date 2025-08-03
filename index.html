@@ -1,84 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Meu Site Moderno</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Uniformes Escolares</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">MeuSite</h1>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Pesquisa</a></li>
+                <li><a href="#services">Dados</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero" id="inicio">
-        <div class="hero-content">
-            <h2>Bem-vindo ao Meu Site</h2>
-            <p>Um projeto moderno com HTML, CSS e JavaScript</p>
-        </div>
-    </section>
+    <!-- Seção Principal -->
+    <main id="home">
+        <section class="hero">
+            <h1>Explorando a Distribuição de Uniformes Escolares</h1>
+            <p>Confira os dados e detalhes sobre a entrega de uniformes para as escolas do Paraná.</p>
+            <a href="https://www.parana.pr.gov.br/aen/Noticia/195-colegios-civico-militares-recebem-kits-finais-do-uniforme">
+                <button>Saiba Mais</button>
+            </a>
+        </section>
+    </main>
 
-    <section class="swiper-section">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="https://picsum.photos/seed/1/1200/400" alt="Slide 1" /></div>
-                <div class="swiper-slide"><img src="https://picsum.photos/seed/2/1200/400" alt="Slide 2" /></div>
-                <div class="swiper-slide"><img src="https://picsum.photos/seed/3/1200/400" alt="Slide 3" /></div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
-
-    <section class="sobre" id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia e design. Crio sites modernos, rápidos e responsivos.</p>
-    </section>
-
-    <section class="projetos" id="projetos">
-        <h2>Projetos Recentes</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Projeto 1</h3>
-                <p>Descrição de um projeto legal.</p>
-            </div>
-            <div class="card">
-                <h3>Projeto 2</h3>
-                <p>Outro projeto interessante.</p>
-            </div>
-            <div class="card">
-                <h3>Projeto 3</h3>
-                <p>Mais um projeto incrível.</p>
+    <!-- Seção de Dados -->
+    <section id="about">
+        <h2>Pesquisa de Dados</h2>
+        <div class="container">
+            <h3>Entrega de Uniformes Escolares</h3>
+            <p>O programa de uniformes escolares do Governo do Paraná está sendo executado com sucesso, com a distribuição de quase 900 mil peças para estudantes das escolas públicas.</p>
+            <div class="quote">
+                <p>"A entrega do novo uniforme está dentro do compromisso com a melhoria da educação." - Roni Miranda</p>
             </div>
         </div>
     </section>
 
-    <section class="contato" id="contato">
-        <h2>Fale Comigo</h2>
-        <form id="formContato">
-            <input type="text" placeholder="Seu nome" required/>
-            <input type="email" placeholder="Seu e-mail" required/>
-            <textarea placeholder="Sua mensagem" required></textarea>
+    <!-- Seção de Serviços -->
+    <section id="services">
+        <h2>Impacto dos Dados</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Eficiência no Programa</h3>
+                <p>Os uniformes são uma parte importante da infraestrutura educacional, promovendo igualdade entre os estudantes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Distribuição por Municípios</h3>
+                <p>A distribuição é realizada de forma estratégica, priorizando as necessidades de cada região do estado.</p>
+            </div>
+            <div class="service-item">
+                <h3>Impacto no Ensino</h3>
+                <p>A entrega dos uniformes impacta positivamente a autoestima e o desempenho escolar dos alunos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form action="#">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
             <button type="submit">Enviar</button>
         </form>
     </section>
 
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Jhamik. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
