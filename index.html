@@ -1,99 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Colégio Estadual civico-militar Helena viana sundin</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    </head>
-    <body>
-            <header class="cabeçalho">
-                <div class="container"> 
-                        <input type="checkbox" id="menu" class="container__botao">
-                        <label for="menu">
-                                <span class="cabeçalho_menu-hamburguer container_imagem"></span>
-                        </label>                                            
-                        <ul class="lista-menu">
-                            <a href="#" class="lista-menu_link">Início</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Notícias</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Eventos</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Imagens e Arquivos</a>
-  </li>
-  <li class="lista-menu_item">
-    <a href="#" class="lista-menu_link">Contato</a>
-  </li>
-</ul>
-                    <span class="menu"></span>
-                    <img src="menu.png" alt="menu" class="menu">
-                     </div>
-            </header>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio Estadual Cívico-Militar Helena Viana Sundin</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="body">
+
+<header class="cabeçalho">
+    <div class="container"> 
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+        </label>                                            
+        <ul class="lista-menu">
+            <li class="lista-menu_item"><a href="#" class="lista-menu_link">Início</a></li>
+            <li class="lista-menu_item"><a href="#" class="lista-menu_link">Notícias</a></li>
+            <li class="lista-menu_item"><a href="#" class="lista-menu_link">Eventos</a></li>
+            <li class="lista-menu_item"><a href="#" class="lista-menu_link">Imagens e Arquivos</a></li>
+            <li class="lista-menu_item"><a href="#" class="lista-menu_link">Contato</a></li>
+        </ul>
+        <img src="menu.png" alt="menu" class="menu">
+    </div>
+</header>
 
 <section class="banner">
-    <h2> Colégio Estadual Cidália Rebello Gomes</h2>
+    <h2>Colégio Estadual Cívico-Militar Helena Viana Sundin</h2>
     <img class="logo" src="logo.png" alt="logo">
-    <!-- Slider main container -->
-<div class="swiper">
-   <!-- If we need pagination -->
-   <div class="swiper-pagination"></div>
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide"><img src="carrossel 1.jpg" alt="Notícias" class="carrossel1"></div>
-    <div class="swiper-slide"><img src="carrossel 2.jpg" alt="Eventos" class="carrossel2"></div>
-    <div class="swiper-slide"><img src="carrossel 3.png" alt="Arquivos" class="carrossel3"></div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
 
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+    <!-- Swiper -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="carrossel 1.jpg" alt="Notícias" class="carrossel1"></div>
+            <div class="swiper-slide"><img src="carrossel 2.jpg" alt="Eventos" class="carrossel2"></div>
+            <div class="swiper-slide"><img src="carrossel 3.png" alt="Arquivos" class="carrossel3"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 
-</div>
-
-<div class="card">
-  <!-- 1º linha -->
-  <div class="carddescricao">
-  <!-- 1º coluna --> 
-<div class="descricao">
-<h3 class="descricaotitulo">Resultado - Prova Paraná</h3>
-<h2 class="descricaotitulo2"> Confira o seu resultado na Prova Paraná </h2>
-<p class="descricaotexto">A aplicação da Prova Paraná permite a coleta de informações sobre as habilidades e as dificuldades de cada aluno </p>
-</div>
-<!-- 2º coluna -->
-<img src="provaparana.jpg" class="provaparana">
-  </div>
-<!-- 2º linha -->
- <div class="cardbotoes">
-<ul class="botoes">
-<li class="botoesitens"><img src="iconelivro.png" alt="botao"></li>
-<li class="botoesitens"><img src="iconeescola.png" alt="botao"></li>
-</ul>
-<!-- 2º coluna -->
-<a href="https://www.provaparana.pr.gov.br/" class="linkprovaparana">Saiba mais</a>
-
-
-</div>
-</div>
-
-
-
+    <div class="card">
+        <div class="carddescricao">
+            <div class="descricao">
+                <h3 class="descricaotitulo">Resultado - Prova Paraná</h3>
+                <h2 class="descricaotitulo2">Confira o seu resultado na Prova Paraná</h2>
+                <p class="descricaotexto">A aplicação da Prova Paraná permite a coleta de informações sobre as habilidades e as dificuldades de cada aluno.</p>
+            </div>
+            <img src="provaparana.jpg" class="provaparana" alt="Prova Paraná">
+        </div>
+        <div class="cardbotoes">
+            <ul class="botoes">
+                <li class="botoesitens"><img src="iconelivro.png" alt="Livro"></li>
+                <li class="botoesitens"><img src="iconeescola.png" alt="Escola"></li>
+            </ul>
+            <a href="https://www.provaparana.pr.gov.br/" class="linkprovaparana">Saiba mais</a>
+        </div>
+    </div>
 </section>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script> 
-const swiper = new Swiper('.swiper', {
-  spaceBetween: 20,
-  slidesPerView: 0,
-});
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            spaceBetween: 20,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            }
+        });
+    });
 </script>
-        </body>
-    </html>
+</body>
+</html>
